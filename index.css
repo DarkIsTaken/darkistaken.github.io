@@ -222,6 +222,10 @@ body {
   font-weight: bold;
 }
 
+#footer a:hover {
+  opacity: 0.6;
+}
+
 #profile_img {
   width: 180px;
   height: 180px;
@@ -363,11 +367,17 @@ body {
 .socials span {
   display: inline-block !important;
   margin-right: 2vw !important;
+  margin-top: 2vw !important;
   font-weight: normal !important;
 }
 
 .socials span a {
   font-weight: normal !important;
+  font-size: 3rem !important;
+}
+
+.socials span a:hover {
+  opacity: 0.6;
 }
 
 #blog_section {
