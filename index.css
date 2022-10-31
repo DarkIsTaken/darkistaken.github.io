@@ -367,13 +367,17 @@ body {
 .socials span {
   display: inline-block !important;
   margin-right: 2vw !important;
-  margin-top: 2vw !important;
+  margin-top: 3.5vw !important;
   font-weight: normal !important;
 }
 
 .socials span a {
   font-weight: normal !important;
   font-size: 3rem !important;
+}
+
+.socials span a  i{
+  font-size: 1.5rem !important;
 }
 
 .socials span a:hover {
