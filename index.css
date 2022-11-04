@@ -220,10 +220,18 @@ body {
   text-decoration: none;
   font-family: "Questrial", sans-serif;
   font-weight: bold;
+  transition: 250ms;
+  padding: 1vh 1vh;
+  border: 1px solid none;
+  border-radius: 10px;
 }
 
 #footer a:hover {
-  opacity: 0.6;
+  transition-delay: 250ms;
+  color: #000 !important;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid white;
 }
 
 #profile_img {
