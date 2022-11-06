@@ -257,7 +257,11 @@ body {
 }
 
 #username span {
-  font-size: 24px;
+  font-size: 30px;
+}
+
+#username span a:hover{
+  text-decoration: none;
 }
 
 #userbio {
